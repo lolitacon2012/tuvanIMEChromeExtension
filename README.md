@@ -1,4 +1,4 @@
-## tuvanIMEChromeExtension
+## Tuvan Language IME Chrome Extension
 A chrome extension which provides Tuvan language input support! You can use it to type in Russian also!
 No need to add input method on your OS!
 
