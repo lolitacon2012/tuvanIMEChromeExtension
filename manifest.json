@@ -1,0 +1,24 @@
+{
+  "name": "TuvanIME",
+  "version": "0.0.1",
+  "manifest_version": 2,
+  "description": "A Tuvan language IME extension",
+  "homepage_url": "http://kannagi.moe",
+  "content_scripts": [{
+    "matches": ["http://*/*", "https://*/*"],
+    "js": ["content_script_end.js"],
+    "run_at": "document_end"
+  }],
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_title": "TuvanIME"
+  },
+  "permissions": [
+    "https://*/*",
+    "http://*/*",
+    "activeTab"
+  ]
+}
