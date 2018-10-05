@@ -4,9 +4,9 @@ No need to add input method on your OS!
 
 Made with 💖💖💖 by a linguaphile (*≧∀≦*) 
 
-NOTE: This project is still under development and there are many bugs and I don't know much about how to write proper Chrome Extension ... Use it at your own risk.
+NOTE: This project is still under development and there are many bugs and I don't know much about how to write proper Chrome Extension ... Use it at your own risk.  
 
-
+</br></br>
 ### What does it do ⚙️
 This chrome extension aims to provide an expanded Cyrillic letter input method designed for Tuvan language, a minority language written in standard Cyrillic letter and 3 special letters which are not used in Russian.
 </br>
@@ -18,8 +18,9 @@ This chrome extension aims to provide an expanded Cyrillic letter input method d
 
 <small> (Special pronunciation characters will be added in the future)</small>
 
-Here we have Ң, Ө and Ү which are not found in Russian alphabet.
+Here we have Ң, Ө and Ү which are not found in Russian alphabet.  
 
+</br></br>
 ### How to use ⌨️
 I did not include any compression or package management and did not pack it for now so just clone the repo and use directly on chrome.
 1. Go to chrome://extensions
@@ -30,8 +31,9 @@ After the extensioin is loaded, click on the icon to turn extension on or off (n
 
 Make sure your system input language is English. Press Shift key twice (~300ms) to switch between Tuvan language and English. Do not use other IME if that IME does not generate latin alphabet.
 
-You will see a small indicator beside the cursor when in Tuvan input mode.
+You will see a small indicator beside the cursor when in Tuvan input mode.  
 
+</br></br>
 ### Key mapping 🗺️
 
 Some Tuvan letters can only be typed out with key combination.Here is the full list of all letter-keyboard mapping of this IME. Please note that the keyboard mapping is almost same with <strong>Windows 10 Russian - Mnemonic</strong>, but there are some differences.
@@ -79,13 +81,15 @@ For example:
 - "Y" is typed: Nothing;
 - Then "U" is typed: "Ю";
 - Then "J" is typed: "Ю";
-- Then "R" is typed: "ЮЙР"; because "JR" does not map to any legal combination
+- Then "R" is typed: "ЮЙР"; because "JR" does not map to any legal combination  
 
+</br></br>
 ### Known issues 😔
 - Only work with `<input>` and `<textarea>`. I have not find any method to hijack keyboard input event and make this IME work for Rich Text Editors such as Google Doc and Zhihu (知乎);
 - Does not support CapsLock yet;
 - Sometimes VM-Script will execute input function twice, causing duplicated input. Looking into this issue now.
-- Conflict with some Third-party input methods such as Sougou Pinyin Shurufa (搜狗拼音输入法).
+- Conflict with some Third-party input methods such as Sougou Pinyin Shurufa (搜狗拼音输入法).  
 
+</br></br>
 ### Special thanks 🙏
 Takashima Hisao, for his impressive Tuvan language textbook 『基礎トゥヴァ語文法』and『トゥヴァ語会話集』
